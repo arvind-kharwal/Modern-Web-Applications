@@ -1,0 +1,22 @@
+h1{color:white;
+text-align: right;
+text-align: center;
+font-size: 20px;
+}
+.text1{color:green;
+font-size:60px}
+#text2{color:blue;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 35px;
+border:dotted;
+border-color: white;
+background-color: aquamarine;
+padding-bottom: 20px;}
+
+body{
+    background: greenyellow;
+    background-color: rgb(34, 126, 207);
+    background: linear-gradient(to right,yellow,red);
+    background: linear-gradient(to left,green,black);
+    background: linear-gradient(to right,rgb(222, 222, 192),rgb(224, 105, 105),rgb(149, 190, 149),rgb(222, 159, 170));
+}
