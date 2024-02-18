@@ -1,4 +1,4 @@
-h1{color:white;
+h1{color:red;
 text-align: right;
 text-align: center;
 font-size: 20px;
@@ -10,11 +10,13 @@ font-size:60px}
 font-family: Arial, Helvetica, sans-serif;
 font-size: 35px;
 border:dotted;
-border-color: white;
-background-color: aquamarine;
-padding-bottom: 20px;}
+border-color: red;
+background-color: rgb(19, 109, 79);
+padding-bottom: 200px;}
 
 body{
    background: red;
-   background-color: yellow;
+   background: linear-gradient(to top);
+
+
 }
