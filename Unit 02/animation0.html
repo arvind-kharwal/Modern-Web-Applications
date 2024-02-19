@@ -3,27 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animation fill mode</title>
+    <title>Animation1</title>
     <style>
         div{
-            width: 100px;
-            height:100px;
+            width:100px;
+            height: 100px;
             background-color:red;
             animation-name: example;
             animation-duration: 4s;
-            animation-delay: 1s;
-            position: relative;
-            animation-fill-mode: forwards;
-            animation-timing-function: linear;
-
         }
         @keyframes example {
-            from{top:0px;background-color: blue;}
-            to{top:200px;background-color: yellow;}
+           0% {background-color: yellow;}
+           25% {background-color: green;}
+           50% {background-color: rgb(19, 45, 193);}
+           100% {background-color: rgb(225, 27, 103);}
         }
     </style>
 </head>
 <body>
-    <div></div>
+    
+<h1>Animation</h1>
+<div></div>
 </body>
 </html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Wildcard Selector</title>
+	<style>
+		/* Apply styles to elements with a class containing "str" */
+		[class*="str"] {
+			background: green;
+			color: white;
+		}
+
+		h1 {
+			color: green;
+		}
+
+		body {
+			text-align: center;
+			width: 60%;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Wild Card Selector</h1>
+
+	<!-- The first div with a class containing "str" -->
+	<div class="first-string">The first div element.</div>
+
+	<!-- The second div with a class not containing "str" -->
+	<div class="second-div">The second div element.</div>
+
+	<!-- The third div with a class containing "strt" -->
+	<div class="my-start">The third div element.</div>
+
+	<!-- A paragraph with a class containing "str" -->
+	<p class="my-string">Paragraph Text</p>
+</body>
+
+</html>
